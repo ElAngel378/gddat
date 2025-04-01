@@ -1,0 +1,29 @@
+#define ICON_COUNT_CUBES 16
+#define ICON_COUNT_SHIPS 1
+#define ICON_COUNT_BALLS 1
+#define ICON_COUNT_UFOS 1
+#define ICON_COUNT_WAVES 1
+
+#define ICONS_COLUMNS 7
+#define ICONS_ROWS 2
+#define ICONS_PER_PAGE (ICONS_COLUMNS * ICONS_ROWS)
+
+#define ICON_X 46
+#define ICON_Y 101
+
+#define ICON_SIZE 16
+#define ICON_MARGIN 6
+#define ICON_STEP (ICON_SIZE + ICON_MARGIN)
+
+#define VRAM_ICON_OFFSET 4
+
+#define SELECTED_ICON_X 104
+#define SELECTED_ICON_Y 32
+
+#define ICON_KIT_SELECTION_INDEX 0x60
+
+#define ICON_TAB_X 10
+#define ICON_TAB_Y 9
+
+
+void icon_kit_loop();
